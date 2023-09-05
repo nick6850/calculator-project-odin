@@ -1,0 +1,67 @@
+.main {
+    width: 350px;
+    height: 550px;
+    border-radius: 5px;
+    border: 5px black solid;
+}
+
+#screen {
+    margin:0;
+    width: 350px;
+    height: 200px;
+    background-color: gray;
+    border-bottom: 1px black solid;
+    display: flex;
+    gap: 5px;
+    color: white;
+    justify-content: end;
+    align-items: end;
+    font-size: 30px;
+}
+
+#screen > div {
+    margin-bottom: 10px;
+}
+
+#res {
+    margin-right: 10px;
+}
+
+#buttons {
+    margin: 0;
+    width: 350px;
+    height: 350px;
+    background-color: gray;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+
+.digits, .operators {
+    margin: 0;
+    display: flex;
+    height: 300px;
+    padding: 10px;
+    font-size: 30px;
+    flex-wrap: wrap;
+    gap: 5px;
+    text-align: center;
+}
+
+.digits > div:hover, .operators > div:hover {
+    font-weight: 800;
+    box-shadow: 0px 0px 11px black;
+
+}
+
+.digits > div, .operators > div  {
+    border: 1px black solid;
+    border-radius: 2px;
+    padding: 5px 25px;
+    flex: 1 0 0
+}
+
+#del {
+    background: red;
+}
