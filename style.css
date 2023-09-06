@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
 .main {
     width: 350px;
     height: 550px;
@@ -38,7 +45,7 @@
 }
 
 
-.digits, .operators {
+.digits, .other {
     margin: 0;
     display: flex;
     height: 300px;
@@ -49,13 +56,13 @@
     text-align: center;
 }
 
-.digits > div:hover, .operators > div:hover {
+.digits > div:hover, .other > div:hover {
     font-weight: 800;
     box-shadow: 0px 0px 11px black;
 
 }
 
-.digits > div, .operators > div  {
+.digits > div, .other > div  {
     border: 1px black solid;
     border-radius: 2px;
     padding: 5px 25px;
